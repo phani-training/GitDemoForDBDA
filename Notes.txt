@@ -32,3 +32,17 @@ git log -> Displays the log of all the commits (Previous 5) done to the git Repo
 
 git diff ->provides the differences in the files that are modified in the Repo. 
 git diff --staged-> Provides the differences in the staged area of the files. 
+
+How to add files to the Remote Repository
+Create a New Repo in your Github account. Please note that U should create a Github account to do the following tasks.
+Clone the Repo into your local Repository: git clone url ->Clones an existing Remote Repo into the local directory.
+The Url is the URL of the Repository that U want to clone. 
+Move to the directory where U have cloned in the git bash. ->cd RepoDir
+Get the status of the git Repo -> git status. 
+Add the files that U want to push to the Remote Repository.-> git add . (Adds all the files of the directory).
+Commit the files into the local git Repo -> git commit -m "messge to commit"
+Finally push the code to the Remote Repository-> git push -u origin main 
+main is the name of the branch in the Remote Repository.  
+
+
+Some more modifications to be added to the branch only
