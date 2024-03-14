@@ -44,5 +44,9 @@ Commit the files into the local git Repo -> git commit -m "messge to commit"
 Finally push the code to the Remote Repository-> git push -u origin main 
 main is the name of the branch in the Remote Repository.  
 
+Adding branches into the git
+To create a new branch -->git checkout -b feature1
+git add . ->Adds all the new files into the branch. 
+git commit -m "adding to branch"
+git push -u origin feature1
 
-Some more modifications to be added to the branch only
