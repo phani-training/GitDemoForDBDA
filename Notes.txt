@@ -1,0 +1,34 @@
+### Version Control System using GIT
+- Version control system is a software that helps the programmers do collaborative work and maintain a complete history of their work. 
+- Allows developers to work simulteneouly. 
+- Has multiple versions of the same file, does not allow overwriting each other's changes. 
+- Maintains a track/history of every version of the file. 
+
+Git is a GPL capability to maintain version control.  Its Open source and free. 
+Git and GitHub are different. 
+Installation of git can be done from https://git-scm.com/downloads
+
+Advantages: 
+Fast and small. Security is well maintained. U can restrict the accessibility at all levels. U dont need any powerful hardware to maintain git. Git internally uses Secure Hash Fn(SHA1) to name, identify the objects within its database. Each file and its commit is checksummed and retrived by its checksum at the every change that happens on the file/object. 
+
+How it works: 
+U create a directory. Make it Git Enabled.
+git init->Command used to make it Git Enabled.  
+
+Add files to your local directory. 
+Stage the files for commit. 
+Finally commit the files into the git. 
+Staging area means an intermediatory state where the user has a final chance to revert or commit into the repository. It is adviced to place the files in the staged area before you commit it. 
+
+
+Working Directory----->Staging Area------------>Git Repository
+Important commands:
+git status -> Gets the Status of the local repository. 
+git init -> Creates a Git folder that keeps track of the changes in the directory. 
+
+git add fileName ->Stages the files for committing. 
+git commit -m "Message to commit"
+git log -> Displays the log of all the commits (Previous 5) done to the git Repo. 
+
+git diff ->provides the differences in the files that are modified in the Repo. 
+git diff --staged-> Provides the differences in the staged area of the files. 
